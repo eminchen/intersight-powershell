@@ -1,0 +1,1 @@
+Get-IntersightServerProfile -Name "Server Profile Name1" | Set-IntersightServerProfile -AssignedServer (Get-IntersightMoMoRef -ManagedObject (Get-IntersightComputeRackUnit -Serial WZP214303V8)) -Action "Deploy"
